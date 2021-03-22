@@ -1,0 +1,19 @@
+{
+	"name"        : "intellexapps/shoutcast",
+	"description" : "Parse the SHOUTcast's '/7.html' info page into usable data",
+	"type"        : "library",
+	"authors"     : [
+		{
+			"name"  : "Ivan Sabo",
+			"email" : "sabo@intellex.rs"
+		}
+	],
+	"autoload"    : {
+		"psr-4" : {
+			"Intellex\\SHOUTcast\\" : "src\\"
+		}
+	},
+	"require"     : {
+		"php" : ">=7.1"
+	}
+}

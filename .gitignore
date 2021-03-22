@@ -1,0 +1,11 @@
+# Package managers
+composer.lock
+/vendor/
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+
+# IDE generated files
+.idea/
